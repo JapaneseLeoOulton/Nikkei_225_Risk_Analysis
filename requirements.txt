@@ -1,0 +1,10 @@
+# Tested with Python 3.9.6
+numpy==2.0.2
+pandas==2.3.3
+scipy==1.13.1
+statsmodels==0.14.6
+arch==7.2.0
+matplotlib==3.9.4
+yfinance==1.2.0          # only needed for `python data.py --refresh`
+scikit-learn==1.6.1      # OLS walk-forward (Task 2)
+# report/report.pdf is built with pdflatex (any TeX distribution, e.g. TinyTeX), not a Python package
